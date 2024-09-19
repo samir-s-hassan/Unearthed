@@ -1,8 +1,12 @@
 import express from "express";
 const app = express();
+import giftsRouter from '../routes/gifts.js'
+
 
 app.use("/public", express.static("./public"));
 app.use("/scripts", express.static("./public/scripts"));
+app.use('/gifts', giftsRouter)
+
 
 app.get("/", (req, res) => {
   res
