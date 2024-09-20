@@ -1,13 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <!-- Title of the webpage -->
+    <title>UnEarthed</title>
+
+    <!-- Favicon for the webpage -->
+    <link rel="icon" type="image/x-icon" href="./public/logo.png" />
+
+    <!-- Linking the external CSS file for styling -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Linking the JavaScript files for DOM manipulation -->
+    <!-- 'defer' ensures scripts run after the HTML is fully parsed -->
+    <script defer src="./public/scripts/header.js"></script>
+    <script defer src="./public/scripts/gifts.js"></script>
   </head>
+
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <!-- Header section where content will be dynamically added via header.js -->
+    <header></header>
+
+    <!-- Main section where gift-related content will be dynamically added via gifts.js -->
+    <main id="main-content"></main>
   </body>
 </html>
