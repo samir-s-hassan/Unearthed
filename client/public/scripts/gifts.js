@@ -72,5 +72,20 @@ const renderGift = async () => {
   }
 };
 
-renderGifts();
-renderGift();
+// Check the current URL and determine the action
+const handleRouting = () => {
+  const currentPath = window.location.pathname;
+
+  if (currentPath === "/" || currentPath === "/index.html") {
+    // User is on the home page
+    renderGifts();
+  } else if (currentPath.startsWith("/gifts/")) {
+    // User is on a produce detail page
+    renderGift();
+  } else {
+    // Invalid route, redirect to 404 page
+    window.location.href = "/404.html";
+  }
+};
+// Execute the routing logic
+handleRouting();
