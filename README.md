@@ -4,8 +4,6 @@ Submitted by: Samir Hassan
 
 About this web app: This app is a crowdsourced repo of great gift ideas for different kinds of people. Browse gifts by intended audience, price point, or category, or upload your own gift ideas! This is the MVP (minimum viable product) for our site that features static HTML with only a few finds tailored towards certain audiences.
 
-Time spent: 3 hours
-
 ## Required Features
 
 The following **required** functionality is completed:
