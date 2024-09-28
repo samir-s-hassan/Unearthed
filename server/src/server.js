@@ -1,4 +1,5 @@
 import express from "express";
+import { config } from './dotenv.js'; // Adjust the path as needed
 const app = express();
 import giftsRouter from '../routes/gifts.js'
 
