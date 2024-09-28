@@ -1,6 +1,6 @@
-import { pool } from "./database"; // Ensure this is your configured PostgreSQL connection
-import { config } from "./dotenv";
-import giftData from "../data/gifts"; // Your array of gift objects
+import { pool } from "./database.js"; // Ensure this is your configured PostgreSQL connection
+import "./dotenv.js";
+import giftData from "../data/gifts.js"
 
 // Function to create the gifts table
 const createGiftsTable = async () => {
