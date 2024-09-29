@@ -22,7 +22,7 @@ const renderGifts = async () => {
       bottomContainer.appendChild(name);
 
       const pricePoint = document.createElement("p");
-      pricePoint.textContent = "Price: " + gift.pricePoint;
+      pricePoint.textContent = "Price: " + gift.pricepoint;
       bottomContainer.appendChild(pricePoint);
 
       const audience = document.createElement("p");
@@ -58,9 +58,9 @@ const renderGift = async () => {
     document.getElementById("image").src = gift.image;
     document.getElementById("name").textContent = gift.name;
     document.getElementById("submittedBy").textContent =
-      "Submitted by: " + gift.submittedBy;
+      "Submitted by: " + gift.submittedby;
     document.getElementById("pricePoint").textContent =
-      "Price: " + gift.pricePoint;
+      "Price: " + gift.pricepoint;
     document.getElementById("audience").textContent =
       "Great For: " + gift.audience;
     document.getElementById("description").textContent = gift.description;

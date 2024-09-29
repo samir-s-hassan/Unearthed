@@ -2,7 +2,7 @@
 
 Submitted by: Samir Hassan
 
-About this web app: This app is a crowdsourced repo of great gift ideas for different kinds of people. Browse gifts by intended audience, price point, or category, or upload your own gift ideas! This is the MVP (minimum viable product) for our site that features static HTML with only a few finds tailored towards certain audiences.
+About this web app: This app is a crowdsourced repo of great gift ideas for different kinds of people. Browse gifts by intended audience, price point, or category, or upload your own gift ideas! This is the MVP (minimum viable product) for our site.
 
 ## Required Features
 
@@ -13,9 +13,10 @@ The following **required** functionality is completed:
 - [X] **The web app displays a title**
 - [X] **The web app displays at least five list items, each with at least three attributes (such as title, text, and image url)**
 - [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [X] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
 - [X] **The web app serves an appropriate 404 page when no matching route is defined**
 - [X] **The web app is appropriately styled using Picocss**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [X] **The PostgreSQL database includes a table that matches the data displayed in the web app**
 
 The following **optional** features are implemented:
 
