@@ -24,6 +24,8 @@
 
 .header-right {
   float: right;
+  display: flex;
+  gap: 20px;
   padding-top:30px;
   padding-right:10px;
 }
@@ -43,5 +45,5 @@ padding: 15px 16px;
 text-align: center;
 text-transform: uppercase;
 touch-action: manipulation;
-width: 80px;
+width: auto; /* Makes the width dynamic */
 }

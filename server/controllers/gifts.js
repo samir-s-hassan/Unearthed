@@ -50,7 +50,7 @@ const createGift = async (req, res) => {
 
 const updateGift = async (req, res) => {
   try {
-    const id = parseInt(req.params.giftId);
+    const id = parseInt(req.params.id);
     const {
       name,
       pricepoint,
@@ -82,7 +82,7 @@ const updateGift = async (req, res) => {
 
 const deleteGift = async (req, res) => {
   try {
-    const id = parseInt(req.params.giftId);
+    const id = parseInt(req.params.id);
     const results = await pool.query("DELETE FROM gifts WHERE id = $1", [id]);
     res.status(200).json(results.rows[0]);
   } catch (error) {

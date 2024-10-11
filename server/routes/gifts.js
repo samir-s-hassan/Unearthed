@@ -10,7 +10,8 @@ router.get("/:giftId", GiftsController.getGiftById);
 //create a gift
 router.post("/", GiftsController.createGift);
 //delete the gift pertaining to this ID
-router.delete("/:giftId", GiftsController.deleteGift);
-router.patch("/:giftId", GiftsController.updateGift);
+router.delete("/:id", GiftsController.deleteGift);
+//update the gift pertaining to this ID
+router.patch("/:id", GiftsController.updateGift);
 
 export default router;
