@@ -19,7 +19,7 @@ const GiftDetails = ({ data }) => {
     const fetchGiftById = async () => {
       const response = await fetch(`http://localhost:3001/gifts/${id}`);
       const data = await response.json();
-      setGift(json);
+      setGift(data);
     };
     fetchGiftById();
   }, [data, id]);
